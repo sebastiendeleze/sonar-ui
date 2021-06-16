@@ -38,6 +38,8 @@ import { DetailComponent as OrganisationDetailComponent } from './record/organis
 import { OrganisationComponent } from './record/organisation/organisation.component';
 import { BriefViewComponent as ProjectBriefViewComponent } from './record/project/brief-view/brief-view.component';
 import { DetailComponent as ProjectDetailComponent } from './record/project/detail/detail.component';
+import { BriefViewComponent as SubdivisionBriefViewComponent } from './record/subdivision/brief-view/brief-view.component';
+import { DetailComponent as SubdivisionDetailComponent } from './record/subdivision/detail/detail.component';
 import { DetailComponent as UserDetailComponent } from './record/user/detail/detail.component';
 import { UserComponent } from './record/user/user.component';
 import { UserService } from './user.service';
@@ -277,6 +279,15 @@ export class AppRoutingModule {
         files: {
           enabled: true
         },
+        editorSettings: {
+          longMode: true
+        }
+      },
+      {
+        type: 'subdivisions',
+        label: 'Subdivisions',
+        briefView: SubdivisionBriefViewComponent,
+        detailView: SubdivisionDetailComponent,
         editorSettings: {
           longMode: true
         }
