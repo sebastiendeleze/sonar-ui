@@ -1,5 +1,42 @@
 # Changelog
 
+## [v1.1.0](https://github.com/rero/sonar-ui/tree/v1.1.0) (2021-06-16)
+
+[Full Changelog](https://github.com/rero/sonar-ui/compare/v1.0.1...v1.1.0)
+
+**Closed issues:**
+
+- Error when searching on a TypeAhead field [\#200](https://github.com/rero/sonar-ui/issues/200)
+
+**Merged pull requests:**
+
+- translations: update catalog [\#237](https://github.com/rero/sonar-ui/pull/237) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- projects: add resource for collections [\#235](https://github.com/rero/sonar-ui/pull/235) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- deposits: improve process [\#233](https://github.com/rero/sonar-ui/pull/233) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- records: enable markdown [\#232](https://github.com/rero/sonar-ui/pull/232) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- translations: update catalog [\#231](https://github.com/rero/sonar-ui/pull/231) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- dependencies: fix security issues [\#230](https://github.com/rero/sonar-ui/pull/230) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- dependencies: fix security issues [\#224](https://github.com/rero/sonar-ui/pull/224) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- translations: update catalog [\#223](https://github.com/rero/sonar-ui/pull/223) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- projects: enable CSV export [\#221](https://github.com/rero/sonar-ui/pull/221) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- documents: change `open\_access` filter value [\#220](https://github.com/rero/sonar-ui/pull/220) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- projects: validation workflow [\#219](https://github.com/rero/sonar-ui/pull/219) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- documents: display facet for `sections` field [\#217](https://github.com/rero/sonar-ui/pull/217) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- editor: handle custom form type [\#215](https://github.com/rero/sonar-ui/pull/215) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- documents: handle custom fields for organisations [\#214](https://github.com/rero/sonar-ui/pull/214) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- documents: configure open access filter [\#211](https://github.com/rero/sonar-ui/pull/211) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- translations: update catalog [\#210](https://github.com/rero/sonar-ui/pull/210) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- projects: detail view for HEP Valais [\#209](https://github.com/rero/sonar-ui/pull/209) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- project: update dependencies [\#206](https://github.com/rero/sonar-ui/pull/206) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- security: update dependencies [\#205](https://github.com/rero/sonar-ui/pull/205) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- styles: add styles for datepicker [\#203](https://github.com/rero/sonar-ui/pull/203) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- translations: update catalog [\#202](https://github.com/rero/sonar-ui/pull/202) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- editor: fix remote typeahead [\#201](https://github.com/rero/sonar-ui/pull/201) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- resources: use `id` property for records [\#199](https://github.com/rero/sonar-ui/pull/199) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- translations: update catalog [\#197](https://github.com/rero/sonar-ui/pull/197) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- project: update link to public interface [\#195](https://github.com/rero/sonar-ui/pull/195) ([sebastiendeleze](https://github.com/sebastiendeleze))
+- translations: load backend translations [\#194](https://github.com/rero/sonar-ui/pull/194) ([sebastiendeleze](https://github.com/sebastiendeleze))
+
 ## [v1.0.1](https://github.com/rero/sonar-ui/tree/v1.0.1) (2021-02-12)
 
 [Full Changelog](https://github.com/rero/sonar-ui/compare/v1.0.0...v1.0.1)
