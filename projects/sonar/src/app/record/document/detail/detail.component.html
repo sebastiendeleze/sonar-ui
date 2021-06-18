@@ -234,6 +234,20 @@
             </dd>
           </ng-container>
 
+          <!-- SUBDIVISIONS -->
+          <ng-container *ngIf="record.subdivisions">
+            <dt class="col-lg-4" translate>Subdivisions</dt>
+            <dd class="col-lg-8">
+              <ul class="list-unstyled mb-0">
+                <li class="p-0" *ngFor="let subdivision of record.subdivisions">
+                  <a [routerLink]="['/', 'records', 'subdivisions', 'detail', subdivision.pid]">
+                    {{ subdivision.name | languageValue | async }}
+                  </a>
+                </li>
+              </ul>
+            </dd>
+          </ng-container>
+
           <!-- LICENSE -->
           <ng-container *ngIf="record.usageAndAccessPolicy">
             <dt class="col-lg-4" translate>License</dt>

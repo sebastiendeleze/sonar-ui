@@ -133,7 +133,7 @@ export class AppRoutingModule {
               'author',
               'subject',
               'organisation',
-              'sections',
+              'subdivision',
               'customField1',
               'customField2',
               'customField3'
@@ -203,7 +203,7 @@ export class AppRoutingModule {
           'author',
           'subject',
           'organisation',
-          'sections',
+          'subdivision',
           'customField1',
           'customField2',
           'customField3'
