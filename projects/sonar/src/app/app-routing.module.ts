@@ -251,7 +251,7 @@ export class AppRoutingModule {
         briefView: BriefViewComponent,
         aggregations: AggregationFilter.filter,
         aggregationsExpand: ['status', 'user', 'contributor'],
-        aggregationsOrder: ['status', 'user', 'contributor']
+        aggregationsOrder: ['status', 'user', 'contributor', 'subdivision']
       },
       {
         type: 'projects',
