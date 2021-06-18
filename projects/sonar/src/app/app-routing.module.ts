@@ -233,7 +233,10 @@ export class AppRoutingModule {
         type: 'users',
         briefView: UserComponent,
         detailView: UserDetailComponent,
-        aggregationsOrder: ['missing_organisation']
+        aggregationsOrder: ['missing_organisation', 'subdivision'],
+        editorSettings: {
+          longMode: true
+        }
       },
       {
         type: 'organisations',
